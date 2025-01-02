@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Quicksand-simple';
+    src: url('./../font/Quicksand-Regular.woff') format('woff');
+  
+
+  }
+  @font-face {
+    font-family: 'Alpino-Simple';
+    src: url('./../font/Alpino-Regular.woff') format('woff');
+    
+
+  }
+  @font-face {
+    font-family: 'Vertrio-Simple';
+    src: url('./../font/Vertrio.woff') format('woff');
+    
+  }
+  @font-face {
+    font-family: 'CentraNo2-Bold';
+    src: url('./../font/CentraNo2-Bold.woff2') format('woff');
+    
+  }
+  @font-face {
+    font-family: 'CentraNo2-Medium';
+    src: url('./../font/CentraNo2-Medium.woff2') format('woff');
+    
+  }
