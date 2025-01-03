@@ -79,11 +79,11 @@
             />
           </li>
         </NuxtLink>
-        <NuxtLink to="utilisateur">
+        <NuxtLink to="log">
           <li>
             <FireIcon
               :class="
-                route.path === '/utilisateur'
+                route.path === '/log'
                   ? 'text-slate-600 bg-slate-200 rounded-full p-3 w-12 h-12 hover:scale-110 transition-all duration-200 ease-in-out'
                   : 'text-slate-600/70 rounded-full hover:bg-violet-500 hover:text-white p-3 w-12 h-12 hover:scale-110 transition-all duration-200 ease-in-out'
               "
@@ -101,7 +101,7 @@
             />
           </li>
         </NuxtLink>
-        <li>
+        <li @click="logout" class="cursor-pointer ">
           <PowerIcon
             class="cursor-pointer text-slate-600/70 rounded-full hover:bg-violet-500 hover:text-white p-3 w-12 h-12 hover:scale-110 transition-all duration-200 ease-in-out"
           />
@@ -137,6 +137,7 @@ let logout = async () => {
     return navigateTo("/");
   }
 };
+
 </script>
 
 <style scoped>
